@@ -1,0 +1,17 @@
+.at-list__item .item-extra__info {
+   color:#EF8200; 
+}
+.at-list__item--thumb .item-thumb__info{
+   width: 79px;
+   height:79px;
+   margin-top:-15rpx;
+}
+.at-list__item .item-content__info-title{
+   margin-left:25px;
+}
+.at-list__item .item-content__info-note{
+   margin-left:25px;
+}
+.at-list__item-content{
+   margin-right:0rpx;
+}

@@ -1,0 +1,32 @@
+.reportRepair{
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    width: 100vw;
+    height: 100vh;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    padding:0 21px;
+}
+.title{
+    font-size:26px;
+    color:#333333;
+    line-height:46px;
+    width:200px;
+    padding:30px 0;
+}
+.my-checkbox.at-checkbox .at-checkbox__option--selected .at-checkbox__icon-cnt {
+    background-color:#44B549;
+}
+.my-checkbox.at-checkbox{ 
+    border-radius:8px;
+    box-shadow:0px 0px 12px 0px rgba(0, 0, 0, 0.08);
+    
+
+  }
+.my-button.at-button {
+    position: relative;
+    top:100px;
+    margin:0 auto;
+    width:531px;
+    background: #44B549;
+  }

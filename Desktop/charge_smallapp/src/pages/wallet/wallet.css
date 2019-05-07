@@ -1,0 +1,23 @@
+.wallet{
+    widows: 100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    text-align:center;
+    position: relative;
+    overflow:hidden;
+}
+.wallet Image{
+    width: 382px;
+    height: 302px;
+    left: 50%;
+    position: absolute;
+    margin-left:-191px;
+    top:214px;
+}
+.wallet_text{
+    text-align:center;
+    margin-top:543px;
+    color: #ccc;
+    font-size:32px;
+    font-weight:700;
+}

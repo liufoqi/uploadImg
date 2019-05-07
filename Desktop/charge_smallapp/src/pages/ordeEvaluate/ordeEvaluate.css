@@ -1,0 +1,47 @@
+.ordeEvaluate{
+  width: 750px;
+  position: relative;
+}
+.top{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 176px;
+  left: 228px;
+}
+.top Image{
+  width: 300px;
+  height: 300px;
+}
+.mt{
+  height:33px;
+  font-size:32px;
+  line-height:33px;
+  font-weight: bold;
+  color:#333333;
+  position: absolute;
+  top: 543px;
+  left: 276px;
+}
+.mm{
+  height:26px;
+  font-size:26px;
+  line-height: 26px;
+  color: #555555;
+  position: absolute;
+  top: 615px;
+  left: 205px;
+}
+.mb{
+  width:519px;
+  height:86px;
+  line-height: 86px;
+  font-size:30px;
+  color:#FFFFFF; 
+  background:#44B549;
+  border-radius:43px;
+  position: absolute;
+  top: 791px;
+  left: 116px;
+  text-align: center;
+}

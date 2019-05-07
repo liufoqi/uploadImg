@@ -1,0 +1,107 @@
+.modelSelect{
+    width:100vw;
+    height: 100vh;
+    background: #f7f7f7;
+    border-top:1px solid #f7f7f7;
+}
+.hot_car{
+    width:100vw;
+    background: #FFFFFF;
+    margin-top:30px;
+    border-top:1px solid #E6E6E6;
+}
+.car_title{
+    /* width:100vw; */
+    border-left:6px solid #44B549;
+    padding-left:15px;
+    margin-top:32px;
+    font-size:36px;
+    color:#333333;
+    font-weight:600;
+}
+.details{
+    width:100vw;
+    border-top:1px solid #E6E6E6;
+    margin-top:32px;
+    display: flex;
+    flex-wrap:wrap;
+}
+.details_public{
+    width:50vw;
+    height: 139px;
+    line-height:139px;
+    border-right:1px solid #E6E6E6;
+    border-bottom:1px solid #E6E6E6;
+    box-sizing:border-box;
+    padding:24px 24px;
+}
+.details_public Image{
+    width:79rpx;
+    height:79rpx;
+    position: absolute;
+    margin-left:20px;
+    margin-top:6px;
+
+}
+.details_text{
+    width:210px;
+    height:90px;
+    line-height:90px;
+    margin:-4px 0px 10px 112px;
+    font-size:30px;
+}
+.details_text Text{
+    display: block;
+    width:210px;
+    height:40px;
+    line-height:40px;
+    white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    font-size:28px;
+    padding-bottom:10px;
+}
+.details_person{
+    padding-top:10px;
+    font-size:26px;
+    color:#888888;
+}
+
+.at-list__item{
+    background:#F7F7F7;
+    padding-left:40px;
+}
+.no_bottom{
+    border-bottom:none;
+}
+.much_car{
+    width:100vw;
+    height: 69vh;
+    background: #FFFFFF;
+    margin-top:30px;
+    border-top:1px solid #E6E6E6;
+}
+.at-list__item .item-content__info-title{
+    margin-bottom:20px;
+    margin-left:20px;
+    font-size: 28px;
+}
+.at-list__item--thumb .item-thumb__info{
+    width:79px;
+    height:79px;
+    margin-top:-16px;
+    margin-left:0px;
+}
+.at-list__item .item-content__info-note{
+    margin-left:20px;
+}
+.at-accordion__title{
+    color:#333333;
+}
+.details_public:nth-child( even ){
+    border-right: none;
+}
+.interval{
+    border-top:1px solid #E6E6E6;
+    margin-top:32px;
+}

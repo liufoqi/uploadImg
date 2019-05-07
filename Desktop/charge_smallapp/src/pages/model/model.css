@@ -1,0 +1,43 @@
+.model{
+    background: #f7f7f7;
+}
+.model_add{
+    width:100vw;
+    height: 120px;
+    line-height:120px;
+    background: #EEFFEF;
+    color:#44B549;
+    text-align:center;
+    font-size:34px;
+    border-bottom:1px solid #92D495;
+    margin-bottom:40px;
+}
+.model_addPng{
+    width:26px;
+    height: 26px;
+    padding-right:10px;
+}
+.at-list__item .item-extra__info{
+    color:#44B549;
+    border:1px solid #44B549;
+    border-radius:26px;
+    padding:0px 25px;
+    font-size: 28px;
+}
+.at-list__item--thumb .item-thumb__info{
+    width:79px;
+    height: 79px;
+    margin-top:-14px;
+}
+.at-list__item .item-content__info-title{
+    margin-left:20px;
+    color:#333;
+    margin-bottom:20px;
+}
+.at-list__item .item-content__info-note {
+    margin-left:20px;
+}
+.at-list__item {
+    padding-top:30px;
+    padding-bottom:30px;
+}

@@ -1,0 +1,240 @@
+.route-box {
+  
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.5s;
+  overflow: hidden;
+  margin-top: 0vh;
+  position:absolute;
+  z-index:999;
+}
+button{
+  border:none;
+  width: 92px;
+  height: 92px;
+  margin:0 15px;
+  padding:0;
+  background:rgba(0,0,0,0);
+  border-radius:50%;
+
+}
+button::before, button::after {
+  border:none;
+
+}
+.route {
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+ 
+}
+.route-box.close {
+  margin-top: 100vh;
+}
+
+.showRoute {
+  width: 100vw;
+  height: 409px;
+  background: #ffffff;
+  /* position: relative; */
+}
+
+/* 导航按钮消失 */
+.route-box.close .route {
+  right: -150px;
+}
+/* 遮罩层消失 */
+.route-box.close .masker {
+  background: transparent;
+}
+
+.location {
+  width: 100%;
+  height: 156px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #E8E8E8;
+
+}
+.location>image {
+  padding: 28px;
+  width: 28px;
+  height: 36px;
+  opacity: 0.5;
+}
+.location>view{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+}
+.location_title {
+  font-size: 28px;
+  line-height: 46px;
+  position: relative;
+  width:100%;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  display: inline-flex;
+
+}
+.location_title .tag{
+ flex: 1;
+ min-width: 60rpx;
+ margin-left: 5px;
+ margin-top: -20px;
+
+
+}
+.location_title .tag image{
+  width:40px;
+  height:36px;
+}
+.location_title .tag text{
+  padding-left:5px;
+  display: inline-block;
+  background-color: transparent;
+  color: #fff;
+  font-size: 24px;
+  width: 40px;
+  height:36px;
+  line-height: 35px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.location_detail {
+  max-width:500px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  font-size: 24px;
+  color: #555555;
+  line-height: 46px;
+  display: inline-block;
+}
+
+.charger_detail {
+  padding: 0 19px;
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.free_text {
+  display: flex;
+  align-items: center;
+}
+
+.sum {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.sum .total {
+  color: #CCCCCC;
+  display: inline-block;
+  margin-left: 0.5em;
+}
+
+.speed {
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  line-height: 36px;
+  text-align: center;
+  font-size: 22px;
+  color: #ffffff;
+  margin: 0 7px;
+}
+
+.fast .speed {
+  background: #44B549;
+}
+
+.slow .speed {
+  background: #EF8200;
+}
+
+.slow {
+  color: #EF8200;
+}
+
+.fast {
+  color: #44B549;
+}
+
+.sum text text {
+  color: #999999;
+}
+
+.sum {
+  display: flex;
+}
+
+.type {
+  width: 188px;
+  height: 38px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid #FF0000;
+  border-radius: 19px;
+  font-size: 20px;
+  color: #FF0000;
+  text-align: center;
+  line-height: 38px;
+}
+
+.charger_content_detail {
+  position: relative;
+  width: 713px;
+  height: 137px;
+  background: rgba(240, 251, 241, 1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  margin-left: 19px;
+  border-left: 6px solid #44B549;
+  padding: 25px 27px;
+  box-sizing: border-box;
+  font-size: 22px;
+  color: #555555;
+}
+
+.fee_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  margin-top: 34px;
+  display: flex;
+  align-items: center;
+
+
+}
+
+.dot {
+  width: 30px;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  font-size: 22px;
+  color: rgba(204, 204, 204, 1);
+}
+
+.repair {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 52px;
+  height: 52px;
+
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding-bottom: 40px;
+}

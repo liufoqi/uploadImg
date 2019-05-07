@@ -1,0 +1,61 @@
+.rechargeSuccess{
+    width: 750px;
+    position: relative;
+}
+.tt{
+   width: 296px;
+   height: 278px;
+   position: absolute;
+   top: 199px;
+   left: 235px; 
+}
+.tt Image{
+    width: 296px;
+   height: 278px;
+}
+.tm{
+    height:33px;
+    font-size:32px;
+    line-height: 33px;
+    color:#333333;
+    font-weight:bold;
+    position: absolute;
+    top: 542px;
+    left: 277px;
+}
+.tb{
+    height:26px;
+    font-size:26px;
+    line-height: 26px;
+    color: #555555;
+    position: absolute;
+    top: 615px;
+    left: 205px; 
+}
+.bt{
+    width:519px;
+    height:86px;
+    line-height: 86px;
+    background:rgba(68,181,73,1);
+    border-radius:43px;
+    color:#FFFFFF;
+    font-size:30px;
+    text-align: center;
+    position: absolute;
+    top: 791px;
+    left: 116px;
+}
+.bb{
+    width:519px;
+    height:86px;
+    line-height: 86px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(68, 181, 73, 1);
+    border-radius:43px;
+    color:#44B549;
+    font-size:30px;
+    text-align: center;
+    position: absolute;
+    top: 907px;
+    left: 116px;
+}

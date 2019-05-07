@@ -1,0 +1,133 @@
+.index{
+  width:100vw;
+  height:100vh;
+}
+.map-container {
+  width: 100vw;
+  font-family: MicrosoftYaHei;
+  font-weight: 400;
+}
+
+.masker {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.2);
+  height:66vh;
+}
+.scanCode{
+  width:322px;
+  height:120px;
+  position:absolute;
+  left:213px;
+  bottom:19px;
+}
+
+.personalCenter{
+  width:103px;
+  height:80px;
+  position:absolute;
+  right:0px;
+  bottom:76px;
+
+}
+
+.search{
+  color:#999999;
+  border-radius:34px;
+  position: absolute;
+  top:19px;
+  left:72px;
+   width:601px;
+   height:68px;
+   background:#ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.search-box{
+  font-size:26px;
+  line-height:26px;
+  width:90px;
+  height:30px;
+
+}
+.search cover-image{
+  display: inline-block;
+  width:28px;
+  height:28px;
+  margin-right:10px;
+}
+.change{
+  position: absolute;
+  bottom: 161px;
+  left: 18px;
+  width:66px;
+  height:66px;
+}
+.centerIcon{
+  width:40px;
+  height:70px;
+  position: absolute;
+  margin-left: -20px;
+  margin-top: -70px;
+  left:50vw;
+  top:51vh;
+}
+.at-float-layout .layout-body {
+  padding: 0 !important;
+  background: #fff !important;
+}
+
+/* 高度 */
+.my-float-layout.at-float-layout .at-float-layout__container {
+  height: 409px !important;
+  background-color: #fff !important; 
+}
+
+/* important 是增加权重值的  去除最小高度 和最大宽度的默认值 */
+.at-float-layout__container {
+  max-width: 100% !important;
+  min-height: 0px !important;
+}
+
+.carInfo{
+  height:60px;
+  padding:0 16px 0 14px;
+  display:inline-flex;
+  align-items:center;
+  overflow:hidden;
+  background:#fff;
+  position:fixed;
+  top:100px;
+  right:0;
+  border-radius:50px 0 0 50px;
+  font-size:22px;
+  font-family:"MicrosoftYaHei";
+  font-weight:400;
+}
+.carInfo .carInfo_content{
+  color:rgba(102,102,102,1);
+}
+.carInfo .toDetail{ 
+  color:#44B549;
+  height:50px;
+  line-height:50px;
+}
+.carInfo .carInfo_img{
+  width:35px;
+  height:35px;
+  margin-right:7px;
+}
+
+.search-icon-box{
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+
+.current-location{
+  position: absolute;
+  bottom: 77px;
+  left: 18px;
+  width:66px;
+  height:66px;
+}
